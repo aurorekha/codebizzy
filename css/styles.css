@@ -1,0 +1,84 @@
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #5FC67E !important;
+  background: #222222 !important; }
+
+.navbar-collapse {
+  color: grey; }
+  .navbar-collapse__links {
+    list-style: none;
+    display: inline-block;
+    background: #D8D8D8;
+    margin-top: 40px;
+    margin-left: 26%;
+    color: #809BBD !important; }
+    .navbar-collapse__links > li {
+      float: left;
+      border-right: 1px solid white; }
+  .navbar-collapse__links a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    font-size: 1.1em;
+    margin: 0 auto;
+    text-align: center; }
+  .navbar-collapse__links a:hover {
+    transform: -webkit-rotate(-10deg);
+    transform: -moz-rotate(-10deg);
+    transform: -o-rotate(-10deg);
+    transform: -ms-rotate(-10deg);
+    transform: rotate(-10deg);
+    transition: background 0.5s linear;
+    text-decoration: none;
+    display: inline-block;
+    color: #50C7E8;
+    background: #809BBD; }
+
+.active {
+  transform: -webkit-rotate(-10deg);
+  transform: -moz-rotate(-10deg);
+  transform: -o-rotate(-10deg);
+  transform: -ms-rotate(-10deg);
+  transform: rotate(-10deg);
+  transition: background 0.5s linear;
+  text-decoration: none;
+  display: inline-block;
+  color: #50C7E8;
+  background: #222222; }
+
+.logo {
+  margin-bottom: -100px; }
+  .logo > a {
+    height: 30px;
+    width: 30px; }
+
+.topImage {
+  background-size: cover;
+  margin-left: -25px;
+  background: #F3EFC0; }
+
+.jumbotron {
+  background-color: #222222 !important; }
+
+.carousel > .carousel-control {
+  background: #222222 !important; }
+.carousel > .carousel-indicators {
+  color: green; }
+
+.img-circle {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red; }
+
+.img-circle:hover {
+  transform: -webkit-rotate(-360deg);
+  transform: -moz-rotate(-360deg);
+  transform: -o-rotate(-360deg);
+  transform: -ms-rotate(-360deg);
+  transform: rotate(-360deg);
+  cursor: pointer; }
+
+.middle-content {
+  display: none; }
