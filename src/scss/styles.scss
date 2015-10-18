@@ -1,0 +1,65 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: $font-size;
+    line-height: 1.42857143;
+    color: $text-color !important;
+}
+
+
+
+.active {
+	@include rotate2d (-10deg);
+		transition: background 0.5s linear ;
+		text-decoration: none;
+		display: inline-block;
+		color: #50C7E8;
+		background: $background-color;
+}
+
+.jumbotron {
+	background-color:$background-color !important;
+	
+	img {
+		width: 100%;
+		position: relative;
+	}
+}
+
+.navbar-fixed-top {
+	background: $nav-background !important;
+	padding: $default-padding;
+	opacity: $default-opacity;
+	
+	.navbar-brand {
+	color: $black !important;
+	}
+	
+	a:hover {
+		color: $white !important;
+	}
+	
+	li a{
+		color: $white !important;
+	}
+}
+
+.title {
+	background-clip: padding-box;
+	background: rgb(0, 0, 0);
+	background: $white;
+	display: block;
+	top: 50%;
+	position: absolute;
+	padding: $default-padding/2;
+	opacity: $default-opacity;
+	border-radius: 0 $radius*2 $radius*2 0 ;
+	width: 50%;
+	&:after{
+	content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/v1445015920/logocodebizzy_d2tai4.png);
+	}
+}
+
+
+
+
+

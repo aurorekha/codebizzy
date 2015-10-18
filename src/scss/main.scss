@@ -1,9 +1,16 @@
 //reset files
 @import "reset.scss";
+
 //definings
 @import "_variables.scss";
 @import "_mixins.scss";
+
 //global styles
 @import "_globals.scss";
 @import "styles.scss";
+@import "media.scss";
+
+//mixin page default 
+@import "bourbon";
+
 //page specifics

@@ -1,0 +1,249 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #5FC67E !important; }
+
+.active {
+  transform: -webkit-rotate(-10deg);
+  transform: -moz-rotate(-10deg);
+  transform: -o-rotate(-10deg);
+  transform: -ms-rotate(-10deg);
+  transform: rotate(-10deg);
+  transition: background 0.5s linear;
+  text-decoration: none;
+  display: inline-block;
+  color: #50C7E8;
+  background: #222222; }
+
+.jumbotron {
+  background-color: #222222 !important; }
+  .jumbotron img {
+    width: 100%;
+    position: relative; }
+
+.navbar-fixed-top {
+  background: #5FC67E !important;
+  padding: 10px;
+  opacity: 0.7; }
+  .navbar-fixed-top .navbar-brand {
+    color: black !important; }
+  .navbar-fixed-top a:hover {
+    color: white !important; }
+  .navbar-fixed-top li a {
+    color: white !important; }
+
+.title {
+  background-clip: padding-box;
+  background: black;
+  background: white;
+  display: block;
+  top: 50%;
+  position: absolute;
+  padding: 5px;
+  opacity: 0.7;
+  border-radius: 0 40px 40px 0;
+  width: 50%; }
+  .title:after {
+    content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/v1445015920/logocodebizzy_d2tai4.png); }
+
+/*----PHONES----*/
+/* ----------- iPhone 4 and 4S ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .title {
+    top: 150px;
+    width: 40%;
+    height: 10%; }
+    .title:after {
+      content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/c_scale,h_57/v1445015893/icon_nes27o.png); } }
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .title {
+    top: 150px;
+    width: 40%;
+    height: 10%; }
+    .title:after {
+      content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/c_scale,h_57/v1445015893/icon_nes27o.png); } }
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .title {
+    top: 150px;
+    width: 50%;
+    height: 20%; }
+    .title:after {
+      content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/c_scale,h_57/v1445015893/icon_nes27o.png); } }
+/* ----------- iPhone 5 and 5S ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .title {
+    top: 150px;
+    height: 5%; }
+    .title:after {
+      content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/c_scale,h_57/v1445015893/icon_nes27o.png); } }
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .title {
+    top: 150px; }
+    .title:after {
+      content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/c_scale,h_57/v1445015893/icon_nes27o.png); } }
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .title {
+    top: 150px;
+    height: 15%; }
+    .title:after {
+      content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/c_scale,h_57/v1445015893/icon_nes27o.png); } }
+/* ----------- iPhone 6 ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .title {
+    top: 80px;
+    width: 40%;
+    height: 12%; }
+    .title:after {
+      content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/c_scale,h_57/v1445015893/icon_nes27o.png); } }
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .title {
+    top: 80px;
+    width: 40%;
+    height: 12%; }
+    .title:after {
+      content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/c_scale,h_57/v1445015893/icon_nes27o.png); } }
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .title {
+    top: 100px;
+    width: 40%;
+    height: 22%; }
+    .title:after {
+      content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/c_scale,h_57/v1445015893/icon_nes27o.png); } }
+/* ----------- iPhone 6+ ----------- */
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .title {
+    top: 150px;
+    width: 40%;
+    height: 5%; }
+    .title:after {
+      content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/c_scale,h_57/v1445015893/icon_nes27o.png); } }
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .title {
+    top: 300px;
+    width: 40%;
+    height: 15%; }
+    .title:after {
+      content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/c_scale,h_57/v1445015893/icon_nes27o.png); } }
+/* ----------- Galaxy S3 ----------- */
+/* Portrait */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
+  .title {
+    top: 300px;
+    width: 40%;
+    height: 15%; }
+    .title:after {
+      content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/c_scale,h_57/v1445015893/icon_nes27o.png); } }
+/* Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
+  .title {
+    top: 300px;
+    width: 40%;
+    height: 15%; }
+    .title:after {
+      content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/c_scale,h_57/v1445015893/icon_nes27o.png); } }
+/* ----------- Galaxy S4 ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
+/* ----------- Galaxy S5 ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
+/* ----------- HTC One ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
+/*----TABLETS----*/
+/* ----------- iPad mini ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
+/* ----------- Galaxy Tab 10.1 ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
+/* ----------- Asus Nexus 7 ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
+/* ----------- Kindle Fire HD 7" ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
+/* ----------- Kindle Fire HD 8.9" ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
+/*-----LAPTOPS-----*/
+/* ----------- Non-Retina Screens ----------- */
+/* ----------- Retina Screens ----------- */
+/*-----WEARABLES-----*/
+/* ----------- Apple Watch ----------- */
+/* ----------- Moto 360 Watch ----------- */

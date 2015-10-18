@@ -1,0 +1,33 @@
+@mixin para-style() {
+	border: {
+		width: 2px;
+		radius: 7px;
+		style: solid;
+		height: auto;
+	}
+	background: white;
+	text-decoration: underline;
+}
+@mixin rotate2d($degrees) {
+  transform: -webkit-rotate($degrees);
+  transform: -moz-rotate($degrees);
+  transform: -o-rotate($degrees);
+  transform: -ms-rotate($degrees);
+  transform: rotate($degrees);
+}
+
+@mixin fancy-text($light-text-color, $font-size) {
+	font-size: $font-size;
+	color: $light-text-color;
+}
+
+@mixin baseline-guide(){
+  @include background-image (linear-gradient($guide-color 1px, transparent 1px));
+background-size: 100% rem($rhythm-unit);
+}
+
+
+@function rem($target, $context: $base-font-size){
+  @if $target == 0{@return 0}
+  @return $target / $context + 0em;
+}
