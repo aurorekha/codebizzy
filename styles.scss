@@ -1,4 +1,4 @@
-@import "media.scss";
+
 
 $text-color: #00CC66;
 $light-text-color: white;
@@ -28,11 +28,6 @@ background-size: 100% rem($rhythm-unit);
 }
 
 
-html body {
-	background-color: #F3EFC0;
-	height: 100%;
-	margin: 0 auto;
-}
 
 @mixin container-style($height, $width) {
 	width: 100%;
@@ -56,57 +51,6 @@ html body {
   transform: rotate($degrees);
 }
 
-.fixed-width {
-
-	width: 1200px;
-	margin: 0 auto;
-	height: 100px;
-	background: #F3EFC0 ;
-
-}
-
-.container {
-
-	background: #F3EFC0 ;
-
-}
-
-.navbar-collapse {
-	color: grey;
-
-
-	&__links {
-		list-style: none;
-		display: inline-block;
-		background: #D8D8D8;
-		margin-top: 40px;
-		margin-left: 26%;
-
-		>li {
-			float: left;
-			border-right: 1px solid white;
-		}
-	}
-	&__links a{
-		text-decoration: none;
-		display: inline-block;
-		padding: 20px;
-		font-size: 1.1em;
-		margin: 0 auto;
-		text-align: center;
-	}
-
-	&__links a:hover{
-		@include rotate2d (-10deg);
-		transition: background 0.5s linear ;
-		text-decoration: none;
-		display: inline-block;
-		color: #50C7E8;
-		background: white;
-
-	}
-
-}
 
 .active {
 	@include rotate2d (-10deg);
@@ -117,18 +61,6 @@ html body {
 		background: white;
 }
 
-.logo {
-	margin-bottom: -100px;
 
-	>a {
-		height: 30px;
-		width: 30px;
-	}
-	}
-.topImage {
-	background-size: cover;
-	margin-left: -25px;
-	background: #F3EFC0 ;
-}
 
 
