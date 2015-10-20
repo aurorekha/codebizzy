@@ -51,6 +51,7 @@ body {
 .contact-navbar-fixed-top {
 	@extend .navbar-fixed-top;
 	background: $secondary-nav-background !important;
+	
 }
 .title {
 	background-clip: padding-box;
@@ -63,11 +64,41 @@ body {
 	opacity: $default-opacity;
 	border-radius: 0 $radius*2 $radius*2 0 ;
 	width: 50%;
-	&:after{
+	
+	&:after{		
 	content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/v1445015920/logocodebizzy_d2tai4.png);
 	}
 }
 
+.contact-title {
+	
+	@extend .title;
+	width: auto;
+	border-radius: 0;
+	left: 24%;
+	
+	&:after{		
+	content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/v1445015884/contactus_eppaog.png);
+	}
+	
+}
+
+.contact-card {
+	background: white url(http://res.cloudinary.com/dmtuwklqb/image/upload/v1445371275/thank-you-806978_640_lwxelo.jpg);
+	background-size: cover;
+	padding: $default-padding*3;
+	
+	h3 {
+		color: $teitary-text-color;
+	}
+}
+
+form {
+	background: $white;
+	padding: $default-padding;
+	border-radius: $radius;
+	
+}
 
 
 

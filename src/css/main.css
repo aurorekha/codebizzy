@@ -86,7 +86,7 @@ body {
 .contact-navbar-fixed-top {
   background: #58D3F7 !important; }
 
-.title {
+.title, .contact-title {
   background-clip: padding-box;
   background: black;
   background: white;
@@ -97,114 +97,133 @@ body {
   opacity: 0.7;
   border-radius: 0 40px 40px 0;
   width: 50%; }
-  .title:after {
+  .title:after, .contact-title:after {
     content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/v1445015920/logocodebizzy_d2tai4.png); }
+
+.contact-title {
+  width: auto;
+  border-radius: 0;
+  left: 24%; }
+  .contact-title:after {
+    content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/v1445015884/contactus_eppaog.png); }
+
+.contact-card {
+  background: white url(http://res.cloudinary.com/dmtuwklqb/image/upload/v1445371275/thank-you-806978_640_lwxelo.jpg);
+  background-size: cover;
+  padding: 30px; }
+  .contact-card h3 {
+    color: #F5F6CE; }
+
+form {
+  background: white;
+  padding: 10px;
+  border-radius: 20px; }
 
 /*----PHONES----*/
 /* ----------- iPhone 4 and 4S ----------- */
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-  .title {
+  .title, .contact-title {
     top: 150px;
     width: 40%;
     height: 10%; }
-    .title:after {
+    .title:after, .contact-title:after {
       content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/c_scale,h_57/v1445015893/icon_nes27o.png); } }
 /* Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  .title {
+  .title, .contact-title {
     top: 150px;
     width: 40%;
     height: 10%; }
-    .title:after {
+    .title:after, .contact-title:after {
       content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/c_scale,h_57/v1445015893/icon_nes27o.png); } }
 /* Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  .title {
+  .title, .contact-title {
     top: 150px;
     width: 50%;
     height: 20%; }
-    .title:after {
+    .title:after, .contact-title:after {
       content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/c_scale,h_57/v1445015893/icon_nes27o.png); } }
 /* ----------- iPhone 5 and 5S ----------- */
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-  .title {
+  .title, .contact-title {
     top: 150px;
     height: 5%; }
-    .title:after {
+    .title:after, .contact-title:after {
       content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/c_scale,h_57/v1445015893/icon_nes27o.png); } }
 /* Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  .title {
+  .title, .contact-title {
     top: 150px; }
-    .title:after {
+    .title:after, .contact-title:after {
       content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/c_scale,h_57/v1445015893/icon_nes27o.png); } }
 /* Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  .title {
+  .title, .contact-title {
     top: 150px;
     height: 15%; }
-    .title:after {
+    .title:after, .contact-title:after {
       content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/c_scale,h_57/v1445015893/icon_nes27o.png); } }
 /* ----------- iPhone 6 ----------- */
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-  .title {
+  .title, .contact-title {
     top: 80px;
     width: 40%;
     height: 12%; }
-    .title:after {
+    .title:after, .contact-title:after {
       content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/c_scale,h_57/v1445015893/icon_nes27o.png); } }
 /* Portrait */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  .title {
+  .title, .contact-title {
     top: 80px;
     width: 40%;
     height: 12%; }
-    .title:after {
+    .title:after, .contact-title:after {
       content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/c_scale,h_57/v1445015893/icon_nes27o.png); } }
 /* Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  .title {
+  .title, .contact-title {
     top: 100px;
     width: 40%;
     height: 22%; }
-    .title:after {
+    .title:after, .contact-title:after {
       content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/c_scale,h_57/v1445015893/icon_nes27o.png); } }
 /* ----------- iPhone 6+ ----------- */
 /* Portrait */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
-  .title {
+  .title, .contact-title {
     top: 150px;
     width: 40%;
     height: 5%; }
-    .title:after {
+    .title:after, .contact-title:after {
       content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/c_scale,h_57/v1445015893/icon_nes27o.png); } }
 /* Landscape */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-  .title {
+  .title, .contact-title {
     top: 300px;
     width: 40%;
     height: 15%; }
-    .title:after {
+    .title:after, .contact-title:after {
       content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/c_scale,h_57/v1445015893/icon_nes27o.png); } }
 /* ----------- Galaxy S3 ----------- */
 /* Portrait */
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
-  .title {
+  .title, .contact-title {
     top: 300px;
     width: 40%;
     height: 15%; }
-    .title:after {
+    .title:after, .contact-title:after {
       content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/c_scale,h_57/v1445015893/icon_nes27o.png); } }
 /* Landscape */
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
-  .title {
+  .title, .contact-title {
     top: 300px;
     width: 40%;
     height: 15%; }
-    .title:after {
+    .title:after, .contact-title:after {
       content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/c_scale,h_57/v1445015893/icon_nes27o.png); } }
 /* ----------- Galaxy S4 ----------- */
 /* Portrait and Landscape */
