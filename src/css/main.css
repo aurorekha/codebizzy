@@ -69,16 +69,22 @@ body {
     width: 100%;
     position: relative; }
 
-.navbar-fixed-top {
+.navbar-fixed-top, .aboutus-navbar-fixed-top, .contact-navbar-fixed-top {
   background: #5FC67E !important;
   padding: 10px;
   opacity: 0.7; }
-  .navbar-fixed-top .navbar-brand {
+  .navbar-fixed-top .navbar-brand, .aboutus-navbar-fixed-top .navbar-brand, .contact-navbar-fixed-top .navbar-brand {
     color: black !important; }
-  .navbar-fixed-top a:hover {
+  .navbar-fixed-top a:hover, .aboutus-navbar-fixed-top a:hover, .contact-navbar-fixed-top a:hover {
     color: white !important; }
-  .navbar-fixed-top li a {
+  .navbar-fixed-top li a, .aboutus-navbar-fixed-top li a, .contact-navbar-fixed-top li a {
     color: white !important; }
+
+.aboutus-navbar-fixed-top {
+  background: #FE9A2E !important; }
+
+.contact-navbar-fixed-top {
+  background: #58D3F7 !important; }
 
 .title {
   background-clip: padding-box;

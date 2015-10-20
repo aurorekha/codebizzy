@@ -43,6 +43,15 @@ body {
 	}
 }
 
+.aboutus-navbar-fixed-top {
+	@extend .navbar-fixed-top;
+	background: $primary-nav-background !important;
+}
+
+.contact-navbar-fixed-top {
+	@extend .navbar-fixed-top;
+	background: $secondary-nav-background !important;
+}
 .title {
 	background-clip: padding-box;
 	background: rgb(0, 0, 0);
