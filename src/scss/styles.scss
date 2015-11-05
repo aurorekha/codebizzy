@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Allura&subset=latin,latin-ext');
+
 body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    //font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Allura", cursive;
     font-size: $font-size;
     line-height: 1.42857143;
     color: $text-color !important;
@@ -16,14 +19,6 @@ body {
 		background: $background-color;
 }
 
-.jumbotron {
-	background-color:$background-color !important;
-	
-	img {
-		width: 100%;
-		position: relative;
-	}
-}
 
 .navbar-fixed-top {
 	background: $nav-background !important;
@@ -57,12 +52,12 @@ body {
 	background-clip: padding-box;
 	background: rgb(0, 0, 0);
 	background: $white;
+	border-radius: 0 $radius*2 $radius*2 0;
 	display: block;
 	top: 50%;
 	position: absolute;
 	padding: $default-padding/2;
 	opacity: $default-opacity;
-	border-radius: 0 $radius*2 $radius*2 0 ;
 	width: 50%;
 	
 	&:after{		
@@ -70,6 +65,13 @@ body {
 	}
 }
 
+.img-container {
+	img {
+		height: 500px;
+		width: 100%;
+	}
+	
+}
 .contact-title {
 	
 	@extend .title;
@@ -99,6 +101,7 @@ form {
 	border-radius: $radius;
 	
 }
+
 
 
 

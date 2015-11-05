@@ -31,3 +31,8 @@ background-size: 100% rem($rhythm-unit);
   @if $target == 0{@return 0}
   @return $target / $context + 0em;
 }
+
+@mixin flush($margin-zero, $padding-zero) {
+	margin: $margin-zero;
+	padding: $padding-zero;
+}
