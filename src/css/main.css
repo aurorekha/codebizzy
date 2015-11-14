@@ -64,6 +64,12 @@ body {
   color: #50C7E8;
   background: #222222; }
 
+.jumbotron {
+  background-color: #222222 !important; }
+  .jumbotron img {
+    width: 100%;
+    position: relative; }
+
 .navbar-fixed-top, .aboutus-navbar-fixed-top, .contact-navbar-fixed-top {
   background: #5FC67E !important;
   padding: 10px;
@@ -94,10 +100,6 @@ body {
   width: 50%; }
   .title:after, .contact-title:after {
     content: url(http://res.cloudinary.com/dmtuwklqb/image/upload/v1445015920/logocodebizzy_d2tai4.png); }
-
-.img-container img {
-  height: 500px;
-  width: 100%; }
 
 .contact-title {
   width: auto;
